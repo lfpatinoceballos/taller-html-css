@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+    border: solid 1px red;
+}
+
+
+/*selector descendente solo me hace los cambios en donde estan los parrafos(p)*/
+div span {
+    font-weight: bold ;
+    font-style: italic;
+    text-decoration: underline;
+}
+
